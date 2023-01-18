@@ -94,7 +94,7 @@ VALUES(5, 'SANTIAGO', 'GONZALEZ','23-24582359-9' , 'Uriburu 558 - 7A', 'VIP'),
 (26, 'CARLOS', 'GARCIA', '23-42321230-9', 'Pasteur 322 - 2C', 'VIP'),
 (50, 'MICAELA', 'ALTIERI', '23-22885566-5', 'SANTAMARINA 1255', 'GBA');
 
-<<<<<<< HEAD
+
 #ETAPA 2.1 --------------------------
 
 ALTER TABLE CLIENTES_NEPTUNO
