@@ -1,0 +1,16 @@
+use libreria;
+
+select concat(apellido," ",nombre) as Autor , provincia
+from autores;
+
+select concat_ws(" ",apellido,nombre) as Autor , provincia
+from autores;
+
+select upper(concat_ws(" ",apellido,nombre)) as Autor , provincia
+from autores;
+
+select upper(concat_ws(",",left(apellido,1),left(nombre,1)))  as Autor , provincia
+from autores;
+
+select year(fecha_ingreso) as INGRESO, concat(apellido, ", ",nombre) as EMPLEADO
+from empleados;
